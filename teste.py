@@ -2,7 +2,7 @@ import unittest
 
 from main import helloword
 
-class Testes(unittest.TesteCase):
+class Testes(unittest.TestCase):
 
     def teste_hello(self):
         self.assertEqual(helloword(),'Olá mundo')
